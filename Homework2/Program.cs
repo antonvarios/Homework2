@@ -165,7 +165,7 @@ namespace ConsoleApplication2
 
             return output + "\r\n----------------------------------------\r\n";
         }
-        public override bool Equals(object obj)
+        public new bool Equals(object obj)
         {
             Owner x = obj as Owner;
             if (x != null)
